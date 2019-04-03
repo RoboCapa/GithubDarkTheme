@@ -3134,9 +3134,14 @@ span.button,
 button.minibutton,
 a.minibutton,
 span.minibutton,
-.clone-url-button>.clone-url-link {
+.clone-url-button>.clone-url-link,
+.js-filtered-column-card-count {
     background: linear-gradient(#25272a, #25272a) !important;
     border-color: #383838 !important;
+}
+
+.js-filtered-column-card-count {
+    margin-top: 0 !important;
 }
 
 .search-form button,
@@ -5708,7 +5713,6 @@ a.notifications-dropdown-see-all:hover {
 .block-diff-neutral,
 .discussion-item-reopened .discussion-item-icon,
 .discussion-item-review.is-approved.is-writer .discussion-item-icon,
-.progress-bar .progress,
 .bar-section-positive,
 .branch-action-state-clean .branch-action-icon,
 .completeness-indicator-success {
